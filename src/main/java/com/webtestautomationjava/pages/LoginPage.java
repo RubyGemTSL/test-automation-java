@@ -37,7 +37,7 @@ public class LoginPage extends Base {
         }
     }
 
-    public void login(String userName, String password) {
+    public void loginWith(String userName, String password) {
         userNameField.sendKeys(userName);
         passwordField.sendKeys(password);
         loginButton.click();
