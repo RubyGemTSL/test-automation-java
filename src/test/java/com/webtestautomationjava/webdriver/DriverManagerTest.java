@@ -8,7 +8,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import static org.hamcrest.MatcherAssert.*;
-import static org.hamcrest.core.Is.is;
 import org.openqa.selenium.WebDriver;
 
 public class DriverManagerTest {

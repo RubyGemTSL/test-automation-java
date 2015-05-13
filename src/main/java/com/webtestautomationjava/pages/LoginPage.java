@@ -43,9 +43,4 @@ public class LoginPage extends Base {
         loginButton.click();
     }
 
-    public void clickLogin() {
-        loginButton.click();
-    }
-
-
 }
