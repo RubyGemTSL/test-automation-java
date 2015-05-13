@@ -20,22 +20,28 @@ public class Driver extends Thread {
             switch (browserToUse) {
                 case "firefox":
                     selectedDriver = DriverManager.createFirefoxDriver();
+                    return selectedDriver;
                 case "htmlunit":
                     selectedDriver = DriverManager.createHtmlUnitDriver();
+                    return selectedDriver;
                 case "chrome":
                     selectedDriver = DriverManager.createChromeDriver();
+                    return selectedDriver;
                 case "iphone5s":
                     selectedDriver = DriverManager.createIphone5Driver();
+                    return selectedDriver;
                 case "ipadair":
                     selectedDriver = DriverManager.createIPadAirDriver();
+                    return selectedDriver;
                 case "nexus7":
                     selectedDriver = DriverManager.createAndroidNexus7Driver();
+                    return selectedDriver;
                 default:
                     selectedDriver = DriverManager.createFirefoxDriver();
+                    return selectedDriver;
             }
 
         }
-
         return selectedDriver;
     }
 }
