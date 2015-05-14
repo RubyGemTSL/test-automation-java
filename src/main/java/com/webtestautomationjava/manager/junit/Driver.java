@@ -1,4 +1,4 @@
-package com.webtestautomationjava.manager;
+package com.webtestautomationjava.manager.junit;
 
 import org.openqa.selenium.WebDriver;
 

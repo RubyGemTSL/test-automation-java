@@ -68,7 +68,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>cucumber.jvm.parallel.ReportMerger</mainClass>
+                    <mainClass>com.webtestautomationjava.utils.ReportMerger</mainClass>
                     <arguments>
                         <argument>target/cucumber-report/</argument>
                     </arguments>

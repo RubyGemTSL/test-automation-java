@@ -1,4 +1,4 @@
-package com.webtestautomationjava.manager;
+package com.webtestautomationjava.webdriver.cucumber;
 
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +15,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-public class DriverManager {
+public class CukesDriverManager {
 
     public static Boolean getIsJavascriptEnabled() {
         String jsEnabled = System.getProperties().getProperty("javascriptEnabled");

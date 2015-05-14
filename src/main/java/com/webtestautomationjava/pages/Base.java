@@ -1,7 +1,7 @@
 package com.webtestautomationjava.pages;
 
-import com.webtestautomationjava.ReadPropertiesFile;
-import com.webtestautomationjava.manager.Driver;
+import com.webtestautomationjava.utils.ReadPropertiesFile;
+import com.webtestautomationjava.manager.junit.Driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.LoadableComponent;
 import org.openqa.selenium.support.ui.WebDriverWait;

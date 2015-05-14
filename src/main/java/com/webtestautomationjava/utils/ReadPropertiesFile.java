@@ -1,4 +1,4 @@
-package com.webtestautomationjava;
+package com.webtestautomationjava.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
